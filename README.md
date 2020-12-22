@@ -1,8 +1,11 @@
 ~~ Apache Spark ~~
 
 sudo apt update
+
 sudo apt install default-jdk
+
 java --version
+
 curl -O https://downloads.apache.org/spark/spark-2.4.7/spark-2.4.7-bin-hadoop2.7.tgz 
 tar xvzf spark-2.4.7-bin-hadoop2.7.tgz 
 sudo mv spark-2.4.7-bin-hadoop2.7 /opt/spark
